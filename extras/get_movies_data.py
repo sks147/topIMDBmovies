@@ -313,7 +313,7 @@ out_encoding = sys.stdout.encoding or sys.getdefaultencoding()
 counter = 0
 
 for movieID in movieIDs:
-  print ranksInEnglish[counter]
+  print "\""+ranksInEnglish[counter]+"\" : {"
   try:
       # Get a Movie object with the data about the movie identified by
       # the given movieID.
@@ -350,13 +350,13 @@ for movieID in movieIDs:
 
   title = movie.get('title')
   if title:
-      print '  title = ', title
+      print '  \"title\" : ', "\""+title+"\","
 
 
   # XXX: many keys return a list of values, like "genres".
   genres = movie.get('genres')
   if genres:
-     print '  genres[] = ', ','.join(genres)
+     print '  \"genres\" : ',"\""+','.join(genres)+"\","
   #
   # XXX: even when only one value is present (e.g.: movie with only one
   #      director), fields that can be multiple are ALWAYS a list.
@@ -372,31 +372,30 @@ for movieID in movieIDs:
          directors_list.append(str(name))
          # sys.stdout.write(',')
 
-  print '  directors[] = ', ','.join(directors_list)
+  print '  \"directors\" : ', "\""+','.join(directors_list)+"\","
   #
   # XXX: notice that every name in the cast is a Person object, with a
   #      currentRole instance variable, which is a string for the played role.
   cast = movie.get('cast')
   if cast:
-     print '  cast[] = ',
+     print '  \"cast\" : '+"\"",
      cast = cast[:5]
      count = 0
      for name in cast:
          # sys.stdout.write(str(name['name']) + ' as ' +str(name.currentRole))
          print '%s as %s' % (name['name'], name.currentRole),
          if count < 4:
-            sys.stdout.write(',')
-
+            sys.stdout.write(', ')
          count+=1
+     print "\","
          # sys.stdout.write(',')
 
 
   # XXX: some information are not lists of strings or Person objects, but simple
   #      strings, like 'rating'.
-  print 
   rating = movie.get('rating')
   if rating:
-     print '  rating =', rating
+     print '  \"rating\" : ', "\""+str(rating)+"\","
   # XXX: an example of how to use information sets; retrieve the "trivia"
   #      info set; check if it contains some data, select and print a
   #      random entry.
@@ -409,7 +408,7 @@ for movieID in movieIDs:
 
   description = movie.get('plot outline')
   if description:
-    print '  description = ', description
+    print '  \"description\" : ', "\""+description+"\""
 
-
+  print "},"
   counter+=1

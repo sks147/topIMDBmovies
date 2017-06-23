@@ -1,0 +1,61 @@
+One
+  title =  The Shawshank Redemption
+  genres[] =  Crime,Drama
+  directors[] =  Frank Darabont
+  cast[] =  Tim Robbins as (Andy Dufresne),Morgan Freeman as (Ellis Boyd 'Red' Redding),Bob Gunton as (Warden Norton),William Sadler as (Heywood),Clancy Brown as (Captain Hadley),
+  rating = 9.3
+  description =  Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+Two
+  title =  The Godfather
+  genres[] =  Crime,Drama
+  directors[] =  Francis Ford Coppola
+  cast[] =  Marlon Brando as (Don Vito Corleone),Al Pacino as (Michael Corleone),James Caan as (Sonny Corleone),Richard S. Castellano as (Clemenza),Robert Duvall as (Tom Hagen),
+  rating = 9.2
+  description =  The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Three
+  title =  The Godfather: Part II
+  genres[] =  Crime,Drama
+  directors[] =  Francis Ford Coppola
+  cast[] =  Al Pacino as (Michael),Robert Duvall as (Tom Hagen),Diane Keaton as (Kay),Robert De Niro as (Vito Corleone),John Cazale as (Fredo Corleone),
+  rating = 9.0
+  description =  The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on the family crime syndicate.
+Four
+  title =  The Dark Knight
+  genres[] =  Action,Crime,Drama,Thriller
+  directors[] =  Christopher Nolan
+  cast[] =  Christian Bale as (Bruce Wayne),Heath Ledger as (Joker),Aaron Eckhart as (Harvey Dent),Michael Caine as (Alfred),Maggie Gyllenhaal as (Rachel),
+  rating = 9.0
+  description =  When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Five
+  title =  12 Angry Men
+  genres[] =  Crime,Drama
+  directors[] =  Sidney Lumet
+  cast[] =  Martin Balsam as (Juror 1) John Fiedler as (Juror 2) Lee J. Cobb as (Juror 3) E.G. Marshall as (Juror 4) Jack Klugman as (Juror 5)
+  rating = 8.9
+  description =  A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.
+Six
+  title =  Schindler's List
+  genres[] =  Biography,Drama,History
+  directors[] =  Steven Spielberg
+  cast[] =  Liam Neeson as (Oskar Schindler) Ben Kingsley as (Itzhak Stern) Ralph Fiennes as (Amon Goeth) Caroline Goodall as (Emilie Schindler) Jonathan Sagall as (Poldek Pfefferberg)
+  rating = 8.9
+  description =  In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans.
+Seven
+  title =  Pulp Fiction
+  genres[] =  Crime,Drama
+  directors[] =  Quentin Tarantino
+  cast[] =  Tim Roth as (Pumpkin) Amanda Plummer as (Honey Bunny) Laura Lovelace as (Waitress) John Travolta as (Vincent Vega) Samuel L. Jackson as (Jules Winnfield)
+  rating = 8.9
+  description =  The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.
+Eight
+  title =  The Lord of the Rings: The Return of the King
+  genres[] =  Adventure,Drama,Fantasy
+  directors[] =  Peter Jackson
+  cast[] =  Noel Appleby as (Everard Proudfoot) Ali Astin as (Elanor Gamgee) Sean Astin as (Sam) David Aston as (Gondorian Soldier 3) John Bach as (Madril)
+  rating = 8.9
+  description =  Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+Nine
+  title =  Il buono, il brutto, il cattivo
+  genres[] =  Western
+  directors[] =  Sergio Leone
+  cast[] =  Eli Wallach as (Tuco) Clint Eastwood as (Blondie) Lee Van Cleef as (Sentenza / Angel Eyes) 

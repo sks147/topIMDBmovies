@@ -1,4 +1,4 @@
 TopIMDBMoviesIntent {Movie}
-TopIMDBMoviesIntent What is the Name of Movie Number {Movie}
-TopIMDBMoviesIntent Talk about Movie Number {Movie}
+TopIMDBMoviesIntent talk about movie number {Movie}
+TopIMDBMoviesIntent tell me about movie number {Movie}
 AMAZON.HelpIntent How many movies do you know about

@@ -276,7 +276,7 @@ var movies = {
     "genres": "Comedy,Drama,Romance",
     "directors": "Charles Chaplin",
     "cast": " Virginia Cherrill as A Blind Girl, Florence Lee as The Blind Girl's Grandmother, Harry Myers as An Eccentric Millionaire, Garcia Al Ernest as James - the Millionaire's Butler, Hank Mann as A Prizefighter ",
-    "rating": "8.6",
+    "rating": "8.5",
     "description": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically."
   },
   "Thirty Six": {
